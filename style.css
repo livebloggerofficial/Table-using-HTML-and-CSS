@@ -1,0 +1,40 @@
+.container {
+  margin-top: 100px;
+}
+
+/* Copy the following code to blogger */
+
+.main-table {
+  margin: 24px 0;
+  padding: 8px;
+  border-collapse: collapse;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.main-table th,
+.main-table td {
+  padding: 12px 18px;
+  border-left: 1px solid #25a186;
+  border-right: 1px solid #25a186;
+}
+
+.main-table thead tr {
+  background: #25a186;
+  color: #fff;
+}
+
+.main-table th {
+  text-align: left;
+  font-weight: bold;
+}
+
+.main-table tbody tr:nth-of-type(even) {
+  background: #f1f1f1;
+}
+
+.main-table tbody tr:nth-last-of-type(1) {
+  border-bottom: 3px solid #25a186;
+}
